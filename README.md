@@ -1,6 +1,52 @@
-# Getting Started with Create React App
+# ADMIN DASHBOARD IN REACT
+The project is the replica of the discord design
+## Authors
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- [Jonnathan Espinoza](https://github.com/JonnathanE)
+
+
+## 🔗 Links
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://github.com/JonnathanE)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/jonnathan-espinoza-604a41226)
+[![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/JonnathanE1)
+
+
+## Tech Stack
+
+**Client:** React, tailwind
+
+**Server:** Node v14.18.0
+
+## Screenshots
+
+![Discord-Design-dark](https://user-images.githubusercontent.com/33469147/154764808-c079ca76-df76-41c2-b5ec-9a39b5d6f86a.png)
+
+![Discord-Design-light](https://user-images.githubusercontent.com/33469147/154764860-89419ca0-a860-44eb-920e-eab8dfb00652.png)
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/JonnathanE/discord-design.git
+```
+
+Go to the project directory
+
+```bash
+  cd discord-design
+```
+
+Install dependencies
+
+```bash
+  yarn
+```
+
+Start the server
+
+```bash
+  yarn run start
+```
 
 ## Available Scripts
 
