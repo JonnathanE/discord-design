@@ -4,7 +4,7 @@ import { FaFire, FaPoo } from 'react-icons/fa';
 const SidebarIcon = ({ icon, text = 'tooltip 💡' }) => (
     <div className='sidebar-icon group'>
         {icon}
-        <span class="sidebar-tooltip group-hover:scale-100">
+        <span className="sidebar-tooltip group-hover:scale-100">
             {text}
         </span>
     </div>

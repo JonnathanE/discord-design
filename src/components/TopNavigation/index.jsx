@@ -5,7 +5,6 @@ const TopNavigation = () => {
 
     const [darkTheme, setDarkTheme] = useDarkMode();
     const handleMode = () => setDarkTheme(!darkTheme);
-    console.log(darkTheme)
 
     return (
         <div className='top-navigation'>
