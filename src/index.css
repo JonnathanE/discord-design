@@ -74,8 +74,7 @@
 
   .dropdown-selection-text {
     @apply text-gray-500 font-semibold tracking-wide
-    mr-auto 
-    transition duration-300 ease-in-out 
+    mr-auto transition duration-300 ease-in-out 
     hover:text-pink-500 dark:hover:text-gray-500
     cursor-pointer;
   }
@@ -116,7 +115,69 @@
   .content-container {
     @apply flex flex-col bg-gray-300 dark:bg-gray-700 m-0 h-full w-full overflow-hidden
   }
+
+  .content-list {
+    @apply flex flex-col items-center 
+    h-full w-full 
+    mt-0 ml-0 mx-auto px-0 pb-12 
+    overflow-y-scroll;
+  }
+
+  .post {
+    @apply w-full flex flex-row items-center justify-evenly
+    py-4 px-8 m-0 cursor-pointer;
+  }
+
+  .avatar-wrapper {
+    @apply flex flex-col items-center w-12 m-0 ml-auto mb-auto;
+  }
+
+  .avatar {
+    @apply flex-none w-12 h-full  rounded-full shadow-md object-cover bg-gray-100 
+    mb-auto mt-0 mx-0 cursor-pointer;
+  }
+
+  .post-content {
+    @apply w-4/5  flex flex-col justify-start ml-auto;
+  }
+
+  .post-owner {
+    @apply text-left font-semibold text-gray-800 dark:text-white mr-2 cursor-pointer;
+  }
+
+  .timestamp {
+    @apply text-xs text-left font-semibold text-gray-500 dark:text-gray-600 ml-2;
+  }
+
+  .post-text {
+    @apply text-lg text-left text-gray-800 dark:text-white 
+    mr-auto whitespace-normal;
+  }
+
+  .bottom-bar {
+    @apply flex flex-row items-center justify-between fixed left-88 right-8 bottom-2 
+    rounded-lg shadow-lg bg-gray-400 dark:bg-gray-600 px-2
+    h-12;
+  }
+
+  .bottom-bar-input {
+    @apply font-semibold w-full bg-transparent outline-none 
+    ml-0 mr-auto text-gray-500  dark:text-gray-400 placeholder-gray-500
+    cursor-text;
+  }
+
 }
+
+@tailwind utilities;
+
+::-webkit-scrollbar {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-gray-500 dark:bg-green-400;
+}
+
 
 /* body {
   margin: 0;
