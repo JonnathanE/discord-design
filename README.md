@@ -1,4 +1,4 @@
-# ADMIN DASHBOARD IN REACT
+# DISCORD DESIGN
 The project is the replica of the discord design
 ## Authors
 
